@@ -2,6 +2,10 @@
 
 namespace MinimalAPI.Data
 {
+    /// <summary>
+    /// In this project, no database used. 
+    /// Data is provided statically
+    /// </summary>
     public class DataContext
     {
         public List<User> Users = new List<User>()

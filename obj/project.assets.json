@@ -1300,11 +1300,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Github\\MinimalAPI\\MinimalAPI.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Github\\MinimalAPI\\fatih-guler-Minimal-API-with-JWT-Token-and-AutoMapper\\MinimalAPI.csproj",
       "projectName": "MinimalAPI",
-      "projectPath": "C:\\Users\\HP\\Desktop\\Github\\MinimalAPI\\MinimalAPI.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\Github\\MinimalAPI\\fatih-guler-Minimal-API-with-JWT-Token-and-AutoMapper\\MinimalAPI.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\Github\\MinimalAPI\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\Github\\MinimalAPI\\fatih-guler-Minimal-API-with-JWT-Token-and-AutoMapper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

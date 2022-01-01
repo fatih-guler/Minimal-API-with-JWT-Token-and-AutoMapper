@@ -1,5 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
+// IZipService defined for Dependency Injection
 builder.Services.AddScoped<IZipService, ZipService>();
 
 
@@ -38,9 +39,12 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     };
 }) ;
 
+
+// ITokenService defined for Dependency Injection
 builder.Services.AddSingleton<ITokenService>(new TokenService(builder));
 
 builder.Services.AddEndpointsApiExplorer();
+// Swagger Integration
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Api", Version = "v1" });
@@ -92,8 +96,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api v1"));
 }
 
-app.MapGet("/", () => "Hello World!");
-
+// There is no authorization for this method
 app.MapGet("/GetRoles", (Func<List<Role>>)(() => new()
 {
     new(1, "Admin", 1),
@@ -118,6 +121,7 @@ app.MapPost("/InsertUser", async (UserViewModel user) =>
     return new OkResult();
 });
 
+// This method requires authorization
 app.MapGet("/GetAllUsersByID/{name}",[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)] async (string name) =>
 {
     var model = ctx.Users.Where(u => u.Name.Contains(name)).ToList();

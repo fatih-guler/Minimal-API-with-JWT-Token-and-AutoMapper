@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ki4g9Iy/s+Y6LJ2B2eSceZC9bzkh1gnkZ/YLLmAq+wI1HiJqlCL29RQPM03ObIGEfsVaWKBYKOJUuE/kVU9s8g==",
+  "dgSpecHash": "iItJ29/INpNt0cEAAl5lwPHWCYd9bf8VjTwrXbLNKYgGVH7/a/kM0+rst41Mta/CeKYMnQ6owXTzlztdDfT0Fg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\Github\\MinimalAPI\\MinimalAPI.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\Github\\MinimalAPI\\fatih-guler-Minimal-API-with-JWT-Token-and-AutoMapper\\MinimalAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
